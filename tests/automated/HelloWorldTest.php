@@ -13,7 +13,6 @@ final class HelloWorldTest extends TestCase
     }
 
     public function testEqualsLib() {
-        $math = new Math;
-        $this->assertEquals(1, 1);
+        $this->assertTrue(Math::equals(2, 2));
     }
 }
