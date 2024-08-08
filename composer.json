@@ -16,5 +16,8 @@
             "email": "andreterceiro@yahoo.com.br"
         }
     ],
-    "require": {}
+    "require": {},
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/automated"
+    }
 }
